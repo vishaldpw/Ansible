@@ -1,5 +1,5 @@
 ---
-- hosts: appServers
+- hosts: ec2-Ubuntu
   tasks:
    - name: Create a file
      file:
